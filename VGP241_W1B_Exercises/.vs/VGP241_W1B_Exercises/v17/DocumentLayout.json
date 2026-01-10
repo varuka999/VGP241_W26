@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_W1B_Exercises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EECA455B-4844-489C-AD44-8B0EEA9707C3}|VGP241_W1B_Exercises\\VGP241_W1B_Exercises.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_W1B_Exercises\\VGP241_W1B_Exercises\\VGP241_W1B_Exercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EECA455B-4844-489C-AD44-8B0EEA9707C3}|VGP241_W1B_Exercises\\VGP241_W1B_Exercises.vcxproj|solutionrelative:VGP241_W1B_Exercises\\VGP241_W1B_Exercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VGP241_W1B_Exercises.cpp",
+              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_W1B_Exercises\\VGP241_W1B_Exercises\\VGP241_W1B_Exercises.cpp",
+              "RelativeDocumentMoniker": "VGP241_W1B_Exercises\\VGP241_W1B_Exercises.cpp",
+              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_W1B_Exercises\\VGP241_W1B_Exercises\\VGP241_W1B_Exercises.cpp",
+              "RelativeToolTip": "VGP241_W1B_Exercises\\VGP241_W1B_Exercises.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-10T17:18:50.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

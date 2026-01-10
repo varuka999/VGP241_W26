@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vjkpo\\source\\repos\\VGP241_Week1A_Exercises\\",
+  "WorkspaceRootPath": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_Week1A_Exercises\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{001596E3-743C-46C5-870B-EDDEA6C93F6F}|VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises\\WinMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{001596E3-743C-46C5-870B-EDDEA6C93F6F}|VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises\\WinMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{001596E3-743C-46C5-870B-EDDEA6C93F6F}|VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises.vcxproj|solutionrelative:VGP241_Week1A_Exercises\\WinMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WinMain.cpp",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises\\WinMain.cpp",
+              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises\\WinMain.cpp",
               "RelativeDocumentMoniker": "VGP241_Week1A_Exercises\\WinMain.cpp",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises\\WinMain.cpp",
+              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\VGP241_Week1A_Exercises\\VGP241_Week1A_Exercises\\WinMain.cpp",
               "RelativeToolTip": "VGP241_Week1A_Exercises\\WinMain.cpp",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-10T16:50:30.972Z",
               "EditorCaption": ""
