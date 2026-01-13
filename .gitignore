@@ -41,3 +41,11 @@
 *.dwo
 
 */.vs
+*/*/.vs
+*/*/*/.vs
+/CustomContainers/.vs
+*/*/x64
+
+*/Debug
+*/*/Debug
+/CustomContainers/CustomContainers/x64/Debug

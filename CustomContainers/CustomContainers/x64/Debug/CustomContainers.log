@@ -1,12 +1,1 @@
-﻿  CustomContainers.cpp
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(25,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(25,30): warning C4267:         with
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(25,30): warning C4267:         [
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(25,30): warning C4267:             T=int
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(25,30): warning C4267:         ]
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(47,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(47,30): warning C4267:         with
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(47,30): warning C4267:         [
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(47,30): warning C4267:             T=int
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(47,30): warning C4267:         ]
-  CustomContainers.vcxproj -> C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\x64\Debug\CustomContainers.exe
+﻿

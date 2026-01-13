@@ -1,10 +1,10 @@
 #pragma once
 
-class enum Stats
+enum Stats
 {
-  Health,
-  Attack,
-  Defense,
-  Stamina,
-  Speed,
-}
+    Health,
+    Attack,
+    Defense,
+    Stamina,
+    Speed,
+};
