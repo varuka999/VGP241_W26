@@ -12,6 +12,7 @@ public:
         // Times the number of elements N
         mValues = new T[N];
     }
+
     Array(T initializeValue)
     {
         mValues = new T[N];
@@ -22,55 +23,57 @@ public:
         }
     }
 
-    // Deep copy constructor ->Review
-    Array(const Array& other)
-    {
-        mValues = new T[N];
-        for (std::size_t i = 0; i < N; ++i)
-        {
-            mValues[i] = other.mValues[i];
-        }
-    }
-
-    // Deep copy assignment ->Review
-    Array& operator=(const Array& other)
-    {
-        if (this != &other)
-        {
-            T* newValues = new T[N];
-            for (std::size_t i = 0; i < N; ++i)
-            {
-                newValues[i] = other.mValues[i];
-            }
-
-            delete[] mValues;
-            mValues = newValues;
-        }
-        return *this;
-    }
-    // Move constructor ->Review
-    Array(Array&& other) noexcept
-        : mValues(other.mValues)
-    {
-        other.mValues = nullptr;
-    }
-
-    // Move assignment ->Review
-    Array& operator=(Array&& other) noexcept
-    {
-        if (this != &other)
-        {
-            delete[] mValues;
-            mValues = other.mValues;
-            other.mValues = nullptr;
-        }
-        return *this;
-    }
-
     ~Array()
     {
         delete[] mValues;
         mValues = nullptr;
+    }
+
+    // Deep copy constructor
+    Array(const Array& copy)
+    {
+        mValues = new T[N];
+        for (std::size_t i = 0; i < N; ++i)
+        {
+            mValues[i] = copy.mValues[i];
+        }
+    }
+
+    // Deep copy assignment
+    Array& operator=(const Array<T, N>& copy)
+    {
+        mValues = new T[N];
+        for (int i = 0; i < N; ++i)
+        {
+            mValues[i] = copy.mValues[i];
+        }
+        return *this;
+    }
+
+    // Move constructor
+    Array(Array<T, N>&& copy)
+    {
+        mValues = new T[N];
+        for (int i = 0; i < N; ++i)
+        {
+            mValues[i] = std::move(copy.mValues[i]);
+        }
+        delete[] copy.mValues;
+        copy.mValues = nullptr;
+    }
+
+    // Move assignment
+    Array& operator=(Array&& copy)
+    {
+        mValues = new T[N];
+        for (int i = 0; i < N; ++i)
+        {
+            mValues[i] = std::move(copy.mValues[i]);
+        }
+        delete[] copy.mValues;
+        copy.mValues = nullptr;
+
+        return *this;
     }
 
     const std::size_t Size() const
