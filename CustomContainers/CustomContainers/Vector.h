@@ -197,6 +197,14 @@ public:
         return mValues[index];
     }
 
+    // Iterator section
+    using Iterator = ContainerIterator<T>;
+    using Const_Iterator = ContainerIterator<const T>;
+    Iterator Begin() { return Iterator(mValues); }
+    Iterator End() { return Iterator(mValues + mSize); }
+    Const_Iterator Begin() const { return Const_Iterator(mValues); }
+    Const_Iterator End() const { return Const_Iterator(mValues + mSize); }
+
 private:
     T* mValues = nullptr;
     std::size_t mCapacity = 0;

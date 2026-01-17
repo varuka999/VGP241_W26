@@ -19,7 +19,7 @@ void Player::InitializeStats(int index)
     mName = "player" + std::to_string(index);
 
     mStatsArray[Health] = 100;
-    for (size_t i = Attack; i <= Speed; i++)
+    for (size_t i = Attack; i <= Speed; ++i)
     {
         int randomNum = 1 + rand() % 5;
         mStatsArray[i] = randomNum;
@@ -29,7 +29,7 @@ void Player::InitializeStats(int index)
 void Player::DisplayStats() const
 {
     std::cout << mName << " Stats:\n";
-    for (int i = 0; i < mStatsArray.Size(); i++)
+    for (int i = 0; i < mStatsArray.Size(); ++i)
     {
         std::cout << mStatsArray[i] << "\n";
     }

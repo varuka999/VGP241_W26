@@ -2,6 +2,8 @@
 #include "Array.h"
 #include "Vector.h"
 #include "Player.h"
+//#include <algorithm/>
+
 
 void ClassPractice()
 {
@@ -128,5 +130,22 @@ int main()
 {
     srand(time(NULL));
 
-    Assignment1();
+    //Assignment1();
+
+    Array<int, 10> myInts;
+    for (int i = 0; i < myInts.Size(); ++i)
+    {
+        myInts[i] = rand() % 100;
+    }
+
+    for (Array<int, 10>::Iterator iter = myInts.Begin(); iter != myInts.End(); ++iter)
+    {
+        std::cout << "Array Value: " << *iter << "\n";
+    }
+
+    std::sort(myInts.Begin(), myInts.End());
+    for (Array<int, 10>::Iterator iter = myInts.Begin(); iter != myInts.End(); ++iter)
+    {
+        std::cout << "Array Value: " << *iter << "\n";
+    }
 }

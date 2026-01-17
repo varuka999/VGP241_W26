@@ -1,17 +1,53 @@
 ﻿  CustomContainers.cpp
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:         with
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:         [
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:             T=int
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:         ]
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:         with
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:         [
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:             T=int
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:         ]
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(66,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(81,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(129,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:         with
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:         [
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:             T=int
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:         ]
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:         with
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:         [
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:             T=int
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:         ]
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(68,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(83,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(131,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8404,10): error C2672: 'std::_Sort_unchecked': no matching overloaded function found
+  (compiling source file 'CustomContainers.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8370,19):
+      could be 'void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8404,10):
+          Failed to specialize function template 'void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8404,10):
+              With the following template arguments:
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8404,10):
+                  '_RanIt=_RanIt'
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8404,10):
+                  '_Pr=_Fn'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1660,25):
+              'std::_Iter_diff_t' : Failed to specialize alias template
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1245,55):
+                  'difference_type': is not a member of any direct or indirect base class of 'std::iterator_traits<_RanIt>'
+          with
+          [
+              _RanIt=ContainerIterator<int>
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8404,10):
+      the template instantiation context (the oldest one first) is
+          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(146,10):
+          see reference to function template instantiation 'void std::sort<ContainerIterator<T>>(const _RanIt,const _RanIt)' being compiled
+          with
+          [
+              T=int,
+              _RanIt=ContainerIterator<int>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\algorithm(8409,10):
+          see reference to function template instantiation 'void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)' being compiled
+          with
+          [
+              _RanIt=ContainerIterator<int>,
+              _Pr=std::less<void>
+          ]
+  
   Player.cpp
   Generating Code...
-  CustomContainers.vcxproj -> C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\x64\Debug\CustomContainers.exe
