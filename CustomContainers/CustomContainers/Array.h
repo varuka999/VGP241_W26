@@ -25,53 +25,61 @@ public:
 
     ~Array()
     {
-        delete[] mValues;
-        mValues = nullptr;
+        if (mValues != nullptr)
+        {
+            delete[] mValues;
+            mValues = nullptr;
+        }
     }
 
     // Deep copy constructor
-    Array(const Array& copy)
+    // Gets called when Array<int, 5> intArray = otherArray
+    Array(const Array& other)
     {
         mValues = new T[N];
         for (std::size_t i = 0; i < N; ++i)
         {
-            mValues[i] = copy.mValues[i];
+            mValues[i] = other.mValues[i];
         }
-    }
-
-    // Deep copy assignment
-    Array& operator=(const Array<T, N>& copy)
-    {
-        mValues = new T[N];
-        for (int i = 0; i < N; ++i)
-        {
-            mValues[i] = copy.mValues[i];
-        }
-        return *this;
     }
 
     // Move constructor
-    Array(Array<T, N>&& copy)
+    // Gets called whehn Array<int, 5> intArray = std::move(otherArray)
+    Array(Array&& other)
     {
+        mValues = other.mValues;
+        other.mValues = nullptr;
+    }
+
+    // Deep copy assignment
+    // Gets called when intArray = otherArray
+    Array& operator=(const Array& other)
+    {
+        if (mValues != nullptr)
+        {
+            delete[] mValues;
+        }
+
         mValues = new T[N];
         for (int i = 0; i < N; ++i)
         {
-            mValues[i] = std::move(copy.mValues[i]);
+            mValues[i] = other.mValues[i];
         }
-        delete[] copy.mValues;
-        copy.mValues = nullptr;
+
+        return *this;
     }
 
     // Move assignment
-    Array& operator=(Array&& copy)
+    // Gets called when intArray = std::move(otherArray)
+    Array& operator=(Array&& other)
     {
-        mValues = new T[N];
-        for (int i = 0; i < N; ++i)
+        if (mValues != nullptr)
         {
-            mValues[i] = std::move(copy.mValues[i]);
+            delete[] other.mValues;
         }
-        delete[] copy.mValues;
-        copy.mValues = nullptr;
+
+        mValues = std::move(other.mValues);
+        other.mValues = nullptr;
 
         return *this;
     }

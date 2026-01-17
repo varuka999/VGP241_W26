@@ -1,1 +1,17 @@
-﻿
+﻿  CustomContainers.cpp
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:         with
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:         [
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:             T=int
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(26,30): warning C4267:         ]
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:         with
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:         [
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:             T=int
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(48,30): warning C4267:         ]
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(66,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(81,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(129,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
+  Generating Code...
+  CustomContainers.vcxproj -> C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\x64\Debug\CustomContainers.exe

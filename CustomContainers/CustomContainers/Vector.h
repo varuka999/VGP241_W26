@@ -25,6 +25,77 @@ public:
         mCapacity = 0;
         mSize = 0;
     }
+    // Deep Copy
+    Vector(const Vector& other)
+    {
+        if (other.mCapacity > 0)
+        {
+            mValues = new T[other.mCapacity];
+            for (int i = 0; i < other.mCapacity; ++i)
+            {
+                mValues[i] = other.mValues[i];
+            }
+        }
+
+
+        mSize = other.mSize;
+        mCapacity = other.mCapacity;
+    }
+
+    // Deep Move
+    Vector(Vector&& other)
+    {
+        mValues = other.mValues;
+        mSize = other.mSize;
+        mCapacity = other.mCapacity;
+
+        other.mValues = nullptr;
+        other.mSize = 0;
+        other.mCapacity = 0;
+    }
+
+    // Copy Assignment
+    Vector& operator=(const Vector& other)
+    {
+        if (mValues != nullptr)
+        {
+            delete[] mValues;
+            mValues = nullptr;
+        }
+
+        if (other.mCapacity > 0)
+        {
+            mValues = new T[other.mCapacity];
+            for (int i = 0; i < other.mCapacity; ++i)
+            {
+                mValues[i] = other.mValues[i];
+            }
+        }
+
+        mSize = other.mSize;
+        mCapacity = other.mCapacity;
+
+        return *this;
+    }
+
+    // Move Assignment
+    Vector& operator=(Vector&& other)
+    {
+        if (mValues != nullptr)
+        {
+            delete[] mValues;
+            mValues = nullptr;
+        }
+        mValues = std::move(other.mValues);
+        mSize = other.mSize;
+        mCapacity = other.mCapacity;
+
+        other.mValues = nullptr;
+        other.mSize = 0;
+        other.mCapacity = 0;
+
+        return *this;
+    }
 
     // Reserve, allocate dta for space requirements (only if increasing capacity)
     void Reserve(std::size_t capacity)
