@@ -3,6 +3,7 @@
 #include "Vector.h"
 #include "Player.h"
 #include "PriorityQueue.h"
+#include "Inventory.h"
 
 void ClassPractice()
 {
@@ -54,6 +55,41 @@ void ClassPractice()
     for (size_t i = 0; i < intVector.Size(); ++i)
     {
         std::cout << "Value at " << i << " = " << intVector[i] << "\n";
+    }
+}
+
+void ClassPractice2()
+{
+    Array<int, 10> myInts;
+    for (int i = 0; i < myInts.Size(); ++i)
+    {
+        myInts[i] = rand() % 100;
+    }
+
+    for (Array<int, 10>::Iterator iter = myInts.Begin(); iter != myInts.End(); ++iter)
+    {
+        std::cout << "Array Value: " << *iter << "\n";
+    }
+
+    std::sort(myInts.Begin(), myInts.End());
+    std::cout << "\nSorted\n";
+    for (Array<int, 10>::Iterator iter = myInts.Begin(); iter != myInts.End(); ++iter)
+    {
+        std::cout << "Array Value: " << *iter << "\n";
+    }
+
+    PriorityQueue<int> priorityQueue;
+    for (int i = 0; i < 20; ++i)
+    {
+        int value = rand() % 100;
+        priorityQueue.Push(value);
+        std::cout << value << " ";
+    }
+    std::cout << "\n\n";
+    while (!priorityQueue.Empty())
+    {
+        std::cout << priorityQueue.Top() << " ";
+        priorityQueue.Pop();
     }
 }
 
@@ -125,39 +161,22 @@ void Assignment1()
     std::cout << playersVector[winnerID].GetName() << " won!\n";
 }
 
-void ClassPractice2()
+void Assignment2()
 {
-    Array<int, 10> myInts;
-    for (int i = 0; i < myInts.Size(); ++i)
+    Inventory inventory;
+	std::cout << "Creating Default Inventory!\n\n";
+	inventory.Initialize();
+    inventory.DisplayInventory();
+
+	std::cout << "\nAdding 100 Random Items!\n\n";
+    for (int i = 0; i < 100; i++)
     {
-        myInts[i] = rand() % 100;
+        int randItemEnum = rand() % ItemType::Count;
+		inventory.AddItem((static_cast<ItemType>(randItemEnum)));
     }
 
-    for (Array<int, 10>::Iterator iter = myInts.Begin(); iter != myInts.End(); ++iter)
-    {
-        std::cout << "Array Value: " << *iter << "\n";
-    }
-
-    std::sort(myInts.Begin(), myInts.End());
-    std::cout << "\nSorted\n";
-    for (Array<int, 10>::Iterator iter = myInts.Begin(); iter != myInts.End(); ++iter)
-    {
-        std::cout << "Array Value: " << *iter << "\n";
-    }
-
-    PriorityQueue<int> priorityQueue;
-    for (int i = 0; i < 20; ++i)
-    {
-        int value = rand() % 100;
-        priorityQueue.Push(value);
-        std::cout << value << " ";
-    }
-    std::cout << "\n\n";
-    while (!priorityQueue.Empty())
-    {
-        std::cout << priorityQueue.Top() << " ";
-        priorityQueue.Pop();
-    }
+	std::cout << "\nSuccessfully Updated Inventory!\n";
+	inventory.DisplayInventory();
 }
 
 int main()
@@ -165,5 +184,5 @@ int main()
     srand(time(NULL));
 
     //Assignment1();
-    ClassPractice2();
+    Assignment2();
 }

@@ -26,9 +26,9 @@ public:
     // --iter
     ContainerIterator& operator--() { --mPtr; return *this; }
     // iter++
-    ContainerIterator& operator++(int) { ContainerIterator tmp = *this; ++(this); return tmp; }
+    ContainerIterator operator++(int) { ContainerIterator tmp = *this; ++(*this); return tmp; }
     // iter--
-    ContainerIterator& operator--(int) { ContainerIterator tmp = *this; --(this); return tmp; }
+    ContainerIterator operator--(int) { ContainerIterator tmp = *this; --(*this); return tmp; }
 
     ContainerIterator operator+(difference_type n) const { return ContainerIterator(mPtr + n); }
     ContainerIterator operator-(difference_type n) const { return ContainerIterator(mPtr - n); }

@@ -130,6 +130,8 @@
     <ClInclude Include="Array.h" />
     <ClInclude Include="ContainerIterator.h" />
     <ClInclude Include="Enums.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PriorityQueue.h" />
     <ClInclude Include="Vector.h" />

@@ -14,7 +14,7 @@ public:
         return mValues.Size() == 0;
     }
 
-    const std::size_t Size()
+    const std::size_t Size() const
     {
         return mValues.Size();
     }

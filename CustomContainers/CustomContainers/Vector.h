@@ -2,6 +2,7 @@
 #include <cstddef>
 #include <cassert>
 #include <algorithm>
+#include "ContainerIterator.h"
 
 template<typename T>
 class Vector
