@@ -1,30 +1,24 @@
 ﻿  CustomContainers.cpp
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:         with
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:         [
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:             T=int
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(28,30): warning C4267:         ]
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:         with
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:         [
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:             T=int
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(50,30): warning C4267:         ]
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(103,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(118,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(184,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(31,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(31,30): warning C4267:         with
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(31,30): warning C4267:         [
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(31,30): warning C4267:             T=int
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(31,30): warning C4267:         ]
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(53,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(53,30): warning C4267:         with
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(53,30): warning C4267:         [
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(53,30): warning C4267:             T=int
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(53,30): warning C4267:         ]
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(106,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(121,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\KDTree.h(67,134): error C2440: 'default argument': cannot convert from 'nullptr' to 'std::function<bool (const void *)> &'
   (compiling source file 'CustomContainers.cpp')
-      D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26):
+      C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\KDTree.h(67,134):
       the template instantiation context (the oldest one first) is
-          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(81,24):
-          see reference to class template instantiation 'PriorityQueue<int>' being compiled
-          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(22,10):
-          while compiling class template member function 'void PriorityQueue<int>::Push(const T &)'
+          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(211,30):
+          see instantiation of default argument expression required for 'void KDTree<float,2>::FindInRange(Vector<const void *> &,const T *,const T *,std::function<bool (const void *)> &)'
           with
           [
-              T=int
+              T=float
           ]
-              D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(85,27):
-              see the first reference to 'PriorityQueue<int>::Push' in 'ClassPractice2'
   
-  CustomContainers.vcxproj -> D:\VGP_Semester5\VGP241_W26\CustomContainers\x64\Debug\CustomContainers.exe

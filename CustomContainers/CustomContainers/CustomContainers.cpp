@@ -1,11 +1,14 @@
 #include <iostream>
+#include <string>
 #include "Array.h"
 #include "Vector.h"
 #include "Player.h"
 #include "PriorityQueue.h"
 #include "Inventory.h"
+#include "KDTree.h"
+#include "Vector2.h"
 
-void ClassPractice()
+void ClassPractice1()
 {
     std::cout << "Custom Containers!\n";
 
@@ -179,10 +182,47 @@ void Assignment2()
 	inventory.DisplayInventory();
 }
 
+struct ItemPractice
+{
+    std::string name;
+    Vector2 position;
+};
+
+void ClassPractice3()
+{
+    Vector<ItemPractice> items;
+    KDTree<float, 2> itemLocations;
+    int maxItems = 100;
+    items.Resize(maxItems);
+    for (int i = 0; i < maxItems; ++i)
+    {
+        items[i].name = "ItemName" + std::to_string(i);
+        items[i].position = { (float)(rand() % 501), (float)(rand() % 501) };
+
+        itemLocations.AddItem(&items[i].position.x, &items[i]);
+    }
+
+    // Must build tree first
+    itemLocations.BuildTree();
+
+    Vector2 minRange = { 200.0f, 200.0f };
+    Vector2 maxRange = { 300.0f, 300.0f };
+    Vector<const void*> itemsInRange;
+    itemLocations.FindInRange(itemsInRange, &minRange.x, &maxRange.x);
+
+    for (Vector<const void*>::Iterator iter = itemsInRange.Begin(); iter != itemsInRange.End(); ++iter)
+    {
+        const ItemPractice* item = (const ItemPractice*)(*iter);
+        std::cout << "Item In Range: " << item->name << " (" << item->position.x << ", " << item->position.y << ")\n";
+    }
+
+    std::cout << "\n\n\n";
+    Vector2 targetPos = { 450.0f, 210.0f };
+    const ItemPractice* foundTarget = (const ItemPractice*)itemLocations.FindNearest(&targetPos.x);
+    std::cout << "Closests Target is : " << foundTarget->name << " (" << foundTarget->position.x << ", " << foundTarget->position.y << ")\n";
+}
+
 int main()
 {
-    srand(time(NULL));
-
-    //Assignment1();
-    Assignment2();
+    ClassPractice3();
 }

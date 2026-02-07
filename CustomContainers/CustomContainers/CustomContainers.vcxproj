@@ -132,9 +132,11 @@
     <ClInclude Include="Enums.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="KDTree.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PriorityQueue.h" />
     <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
