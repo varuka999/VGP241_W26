@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "CustomContainers\\CustomContainers.cpp",
               "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\CustomContainers.cpp",
               "RelativeToolTip": "CustomContainers\\CustomContainers.cpp",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAALcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwLUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-10T17:22:23.285Z",
               "IsPinned": true,
@@ -76,8 +76,7 @@
               "RelativeToolTip": "CustomContainers\\Inventory.h",
               "ViewState": "AgIAACYAAAAAAAAAAAAkwEYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-24T07:09:56.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T07:09:56.011Z"
             },
             {
               "$type": "Document",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "CustomContainers\\Item.h",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-24T07:02:32.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T07:02:32.091Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "CustomContainers\\PriorityQueue.h",
               "ViewState": "AgIAADkAAAAAAAAAAAD4v0sAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-17T19:57:39.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T19:57:39.406Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "CustomContainers\\Player.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-17T18:47:48.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T18:47:48.12Z"
             },
             {
               "$type": "Document",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "CustomContainers\\Enums.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-17T18:47:44.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T18:47:44.205Z"
             },
             {
               "$type": "Document",
@@ -141,8 +136,7 @@
               "RelativeToolTip": "CustomContainers\\ContainerIterator.h",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-17T18:05:27.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-17T18:05:27.976Z"
             },
             {
               "$type": "Document",
@@ -154,8 +148,7 @@
               "RelativeToolTip": "CustomContainers\\Player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-12T23:12:41.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T23:12:41.207Z"
             },
             {
               "$type": "Document",
@@ -167,8 +160,7 @@
               "RelativeToolTip": "CustomContainers\\Vector.h",
               "ViewState": "AgIAAGYAAAAAAAAAAAD4v3gAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-10T18:09:04.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T18:09:04.595Z"
             },
             {
               "$type": "Document",
@@ -180,8 +172,7 @@
               "RelativeToolTip": "CustomContainers\\Array.h",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAAHoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-10T17:23:57.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T17:23:57.69Z"
             }
           ]
         }
