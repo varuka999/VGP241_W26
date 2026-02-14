@@ -4,6 +4,8 @@
 #include "Player.h"
 #include "PriorityQueue.h"
 #include "Inventory.h"
+#include "Globals.h"
+#include "UnorderedMap.h"
 
 void ClassPractice()
 {
@@ -184,5 +186,26 @@ int main()
     srand(time(NULL));
 
     //Assignment1();
-    Assignment2();
+    //Assignment2();
+
+    UnorderedMap<std::string, int> myCarPrices;
+    myCarPrices.Insert("Ford", 10000);
+    myCarPrices.Insert("Chevy", 25000);
+    myCarPrices["Dodge"] = 30000;
+    myCarPrices["BMW"] = 100000;
+
+    std::cout << "Price of Ford " << myCarPrices["Ford"] << "\n";
+    std::cout << "Price of Chevy " << myCarPrices["Chevy"] << "\n";
+    std::cout << "Price of Dodge " << myCarPrices["Dodge"] << "\n";
+    std::cout << "Price of BMW " << myCarPrices["BMW"] << "\n";
+    std::cout << "Number of cars" << myCarPrices.GetCount() << "\n";
+    myCarPrices.Remove("Ford");
+
+    std::cout << "HashValues\n";
+    std::cout << "RAT: " << Globals::HashFunction("RAT") << "\n";
+    std::cout << "TAR: " << Globals::HashFunction("TAR") << "\n";
+    std::cout << "Ford: " << Globals::HashFunction("Ford") << "\n";
+    std::cout << "Chevy: " << Globals::HashFunction("Chevy") << "\n";
+    std::cout << "Dodge: " << Globals::HashFunction("Dodge") << "\n";
+    std::cout << "BMW: " << Globals::HashFunction("BMW") << "\n";
 }
