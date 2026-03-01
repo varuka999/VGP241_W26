@@ -181,13 +181,8 @@ void Assignment2()
 	inventory.DisplayInventory();
 }
 
-int main()
+void Week6()
 {
-    srand(time(NULL));
-
-    //Assignment1();
-    //Assignment2();
-
     UnorderedMap<std::string, int> myCarPrices;
     myCarPrices.Insert("Ford", 10000);
     myCarPrices.Insert("Chevy", 25000);
@@ -208,4 +203,29 @@ int main()
     std::cout << "Chevy: " << Globals::HashFunction("Chevy") << "\n";
     std::cout << "Dodge: " << Globals::HashFunction("Dodge") << "\n";
     std::cout << "BMW: " << Globals::HashFunction("BMW") << "\n";
+}
+
+int main()
+{
+    srand(time(NULL));
+
+    //Assignment1();
+    //Assignment2();
+
+    Vector<int> myNumbers;
+    int maxNumbers = 20;
+    for (int i = 0; i < maxNumbers; ++i)
+    {
+        int value = 1 + (rand() % 1000);
+        myNumbers.PushBack(value);
+        std::cout << value << " ";
+    }
+    std::cout << "\n";
+
+    Globals::IntroSort(myNumbers.Begin(), myNumbers.End());
+    for (int i = 0; i < myNumbers.Size(); ++i)
+    {
+        std::cout << myNumbers[i] << " ";
+    }
+    std::cout << "\n";
 }

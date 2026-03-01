@@ -11,7 +11,19 @@ C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomC
 C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(52,30): warning C4267:         ]
 C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(105,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(120,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(186,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(210,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(340,28): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'CustomContainers.cpp')
+      C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(340,28):
+      the template instantiation context (the oldest one first) is
+          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(225,14):
+          see reference to function template instantiation 'void Globals::IntroSort<T,std::less<int>>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
+          with
+          [
+              T=int,
+              Compare=std::less<int>
+          ]
+  
 C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'CustomContainers.cpp')
       C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26):
@@ -26,5 +38,35 @@ C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Priorit
           ]
               C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(87,27):
               see the first reference to 'PriorityQueue<int>::Push' in 'ClassPractice2'
+  
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244: 'initializing': conversion from 'ContainerIterator<T>::difference_type' to 'int', possible loss of data
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:         with
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:         [
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:             T=int
+C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:         ]
+  (compiling source file 'CustomContainers.cpp')
+      C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(225,14):
+          see reference to function template instantiation 'void Globals::IntroSort<T,std::less<int>>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
+          with
+          [
+              T=int,
+              Compare=std::less<int>
+          ]
+          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(341,31):
+          see reference to function template instantiation 'void Globals::IntroSortHelpers::IntroSortUtil<T,Compare>(ContainerIterator<T>,ContainerIterator<T>,int,Compare)' being compiled
+          with
+          [
+              T=int,
+              Compare=std::less<int>
+          ]
+          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(324,17):
+          see reference to function template instantiation 'void Globals::HeapSort<T,Compare>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
+          with
+          [
+              T=int,
+              Compare=std::less<int>
+          ]
   
   CustomContainers.vcxproj -> C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\x64\Debug\CustomContainers.exe
