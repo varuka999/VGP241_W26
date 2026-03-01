@@ -1,54 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\",
+  "WorkspaceRootPath": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Team.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\UnorderedMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\UnorderedMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\CustomContainers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\CustomContainers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\CustomContainers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\PlayerA6.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\PlayerA6.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\TextureManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\TextureManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Enums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\KeyItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\KeyItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Array.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\InventoryA5.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\InventoryA5.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Inventory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\UnorderedMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\UnorderedMap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Array.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Array.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\ContainerIterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\ContainerIterator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{25D74D0F-CB55-4CDC-8AF1-635FEAEA17B1}|CustomContainers\\CustomContainers.vcxproj|solutionrelative:CustomContainers\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,17 +78,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CustomContainers.cpp",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\CustomContainers.cpp",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\CustomContainers.cpp",
               "RelativeDocumentMoniker": "CustomContainers\\CustomContainers.cpp",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\CustomContainers.cpp",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\CustomContainers.cpp",
               "RelativeToolTip": "CustomContainers\\CustomContainers.cpp",
-              "ViewState": "AgIAALcAAAAAAAAAAAAAAM8AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAiwO4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-01-10T17:22:23.285Z",
               "IsPinned": true,
@@ -80,137 +100,211 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Team.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Team.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Team.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Team.h*",
+              "RelativeToolTip": "CustomContainers\\Team.h*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T20:40:46.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerA6.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\PlayerA6.h",
+              "RelativeDocumentMoniker": "CustomContainers\\PlayerA6.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\PlayerA6.h",
+              "RelativeToolTip": "CustomContainers\\PlayerA6.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T20:29:52.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KeyItem.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\KeyItem.h",
+              "RelativeDocumentMoniker": "CustomContainers\\KeyItem.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\KeyItem.h",
+              "RelativeToolTip": "CustomContainers\\KeyItem.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T19:17:50.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Map.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Map.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Map.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Map.h",
+              "RelativeToolTip": "CustomContainers\\Map.h",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAawGQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T18:42:26.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Globals.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Globals.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Globals.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Globals.h",
+              "RelativeToolTip": "CustomContainers\\Globals.h",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAiwEwBAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T18:16:12.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entity.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Entity.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Entity.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Entity.h",
+              "RelativeToolTip": "CustomContainers\\Entity.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T17:41:42.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TextureManager.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\TextureManager.h",
+              "RelativeDocumentMoniker": "CustomContainers\\TextureManager.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\TextureManager.h",
+              "RelativeToolTip": "CustomContainers\\TextureManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T17:30:12.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Texture.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Texture.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Texture.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Texture.h",
+              "RelativeToolTip": "CustomContainers\\Texture.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-01T17:28:00.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "UnorderedMap.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\UnorderedMap.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\UnorderedMap.h",
               "RelativeDocumentMoniker": "CustomContainers\\UnorderedMap.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\UnorderedMap.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\UnorderedMap.h",
               "RelativeToolTip": "CustomContainers\\UnorderedMap.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADgvzsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-14T17:51:06.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Globals.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Globals.h",
-              "RelativeDocumentMoniker": "CustomContainers\\Globals.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Globals.h",
-              "RelativeToolTip": "CustomContainers\\Globals.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Inventory.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Inventory.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Inventory.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Inventory.h",
+              "RelativeToolTip": "CustomContainers\\Inventory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-14T17:12:28.367Z",
+              "WhenOpened": "2026-01-24T07:09:56.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Inventory.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Inventory.h",
-              "RelativeDocumentMoniker": "CustomContainers\\Inventory.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Inventory.h",
-              "RelativeToolTip": "CustomContainers\\Inventory.h",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwD4AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Item.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Item.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Item.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Item.h",
+              "RelativeToolTip": "CustomContainers\\Item.h",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-24T07:09:56.011Z"
+              "WhenOpened": "2026-01-24T07:02:32.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Item.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Item.h",
-              "RelativeDocumentMoniker": "CustomContainers\\Item.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Item.h",
-              "RelativeToolTip": "CustomContainers\\Item.h",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "PriorityQueue.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\PriorityQueue.h",
+              "RelativeDocumentMoniker": "CustomContainers\\PriorityQueue.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\PriorityQueue.h",
+              "RelativeToolTip": "CustomContainers\\PriorityQueue.h",
+              "ViewState": "AgIAADkAAAAAAAAAAAD4v0sAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-24T07:02:32.091Z"
+              "WhenOpened": "2026-01-17T19:57:39.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PriorityQueue.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\PriorityQueue.h",
-              "RelativeDocumentMoniker": "CustomContainers\\PriorityQueue.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\PriorityQueue.h",
-              "RelativeToolTip": "CustomContainers\\PriorityQueue.h",
-              "ViewState": "AgIAADkAAAAAAAAAAAD4v0sAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-17T19:57:39.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.cpp",
-              "RelativeDocumentMoniker": "CustomContainers\\Player.cpp",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.cpp",
-              "RelativeToolTip": "CustomContainers\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-01-17T18:47:48.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Enums.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Enums.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Enums.h",
               "RelativeDocumentMoniker": "CustomContainers\\Enums.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Enums.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Enums.h",
               "RelativeToolTip": "CustomContainers\\Enums.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-17T18:47:44.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ContainerIterator.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\ContainerIterator.h",
-              "RelativeDocumentMoniker": "CustomContainers\\ContainerIterator.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\ContainerIterator.h",
-              "RelativeToolTip": "CustomContainers\\ContainerIterator.h",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwB0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-17T18:05:27.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.h",
-              "RelativeDocumentMoniker": "CustomContainers\\Player.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.h",
-              "RelativeToolTip": "CustomContainers\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-12T23:12:41.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Vector.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Vector.h",
-              "RelativeDocumentMoniker": "CustomContainers\\Vector.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Vector.h",
-              "RelativeToolTip": "CustomContainers\\Vector.h",
-              "ViewState": "AgIAAGYAAAAAAAAAAAD4v3gAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-10T18:09:04.595Z"
+              "WhenOpened": "2026-01-17T18:47:44.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Array.h",
-              "DocumentMoniker": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Array.h",
-              "RelativeDocumentMoniker": "CustomContainers\\Array.h",
-              "ToolTip": "C:\\Users\\vjkpo\\source\\repos\\VGP241_W26\\CustomContainers\\CustomContainers\\Array.h",
-              "RelativeToolTip": "CustomContainers\\Array.h",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHoAAAA0AAAAAAAAAA==",
+              "Title": "InventoryA5.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\InventoryA5.h",
+              "RelativeDocumentMoniker": "CustomContainers\\InventoryA5.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\InventoryA5.h",
+              "RelativeToolTip": "CustomContainers\\InventoryA5.h",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgvywAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-01-10T17:23:57.69Z"
+              "WhenOpened": "2026-03-01T19:18:45.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.cpp",
+              "RelativeDocumentMoniker": "CustomContainers\\Player.cpp",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Player.cpp",
+              "RelativeToolTip": "CustomContainers\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-17T18:47:48.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Array.h",
+              "DocumentMoniker": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Array.h",
+              "RelativeDocumentMoniker": "CustomContainers\\Array.h",
+              "ToolTip": "D:\\VGP_Semester5\\VGP241_W26\\CustomContainers\\CustomContainers\\Array.h",
+              "RelativeToolTip": "CustomContainers\\Array.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-10T17:23:57.69Z",
+              "EditorCaption": ""
             }
           ]
         }
