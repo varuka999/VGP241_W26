@@ -25,7 +25,7 @@ namespace Globals
     }
 
     template<typename T>
-    void ButtleSort(Vector<T>& values)
+    void BubbleSort(Vector<T>& values)
     {
         std::size_t size = values.Size();
         for (std::size_t i = 0; i < size; ++i)
@@ -40,14 +40,14 @@ namespace Globals
         }
     }
     template<typename T>
-    void ButtleSort(Vector<T>& values, std::function<bool(const T&, const T&)>& sortFunc)
+    void BubbleSort(Vector<T>& values, std::function<bool(const T&, const T&)>& sortFunc)
     {
         std::size_t size = values.Size();
         for (std::size_t i = 0; i < size; ++i)
         {
             for (std::size_t j = 0; j < size - i - 1; ++j)
             {
-                if (sortFunct(values[j], values[j + 1]))
+                if (sortFunc(values[j], values[j + 1]))
                 {
                     Swap(values[j], values[j + 1]);
                 }
