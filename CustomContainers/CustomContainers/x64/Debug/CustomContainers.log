@@ -1,67 +1,97 @@
 ﻿  CustomContainers.cpp
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(30,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(30,30): warning C4267:         with
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(30,30): warning C4267:         [
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(30,30): warning C4267:             T=int
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(30,30): warning C4267:         ]
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(52,30): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(52,30): warning C4267:         with
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(52,30): warning C4267:         [
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(52,30): warning C4267:             T=int
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(52,30): warning C4267:         ]
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(105,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(120,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(210,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(340,28): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(33,24): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(33,24): warning C4267:         with
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(33,24): warning C4267:         [
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(33,24): warning C4267:             T=int
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(33,24): warning C4267:         ]
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(55,24): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(55,24): warning C4267:         with
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(55,24): warning C4267:         [
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(55,24): warning C4267:             T=int
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(55,24): warning C4267:         ]
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(108,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(123,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(457,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'CustomContainers.cpp')
-      C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(340,28):
+      D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26):
       the template instantiation context (the oldest one first) is
-          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(225,14):
-          see reference to function template instantiation 'void Globals::IntroSort<T,std::less<int>>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
-          with
-          [
-              T=int,
-              Compare=std::less<int>
-          ]
-  
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'CustomContainers.cpp')
-      C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(27,26):
-      the template instantiation context (the oldest one first) is
-          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(83,24):
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(86,21):
           see reference to class template instantiation 'PriorityQueue<int>' being compiled
-          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(22,10):
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\PriorityQueue.h(22,10):
           while compiling class template member function 'void PriorityQueue<int>::Push(const T &)'
           with
           [
               T=int
           ]
-              C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(87,27):
+              D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(90,21):
               see the first reference to 'PriorityQueue<int>::Push' in 'ClassPractice2'
   
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244: 'initializing': conversion from 'ContainerIterator<T>::difference_type' to 'int', possible loss of data
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:         with
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:         [
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:             T=int
-C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19): warning C4244:         ]
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(339,28): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   (compiling source file 'CustomContainers.cpp')
-      C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(285,19):
+      D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(339,28):
       the template instantiation context (the oldest one first) is
-          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(225,14):
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Team.h(107,12):
+          see reference to function template instantiation 'void Globals::IntroSort<T,std::function<bool (const PlayerA6 &,const PlayerA6 &)>>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
+          with
+          [
+              T=PlayerA6,
+              Compare=std::function<bool (const PlayerA6 &,const PlayerA6 &)>
+          ]
+  
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244: 'initializing': conversion from 'ContainerIterator<T>::difference_type' to 'int', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:         with
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:         [
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:             T=PlayerA6
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:         ]
+  (compiling source file 'CustomContainers.cpp')
+      D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19):
+      the template instantiation context (the oldest one first) is
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Team.h(107,12):
+          see reference to function template instantiation 'void Globals::IntroSort<T,std::function<bool (const PlayerA6 &,const PlayerA6 &)>>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
+          with
+          [
+              T=PlayerA6,
+              Compare=std::function<bool (const PlayerA6 &,const PlayerA6 &)>
+          ]
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(340,31):
+          see reference to function template instantiation 'void Globals::IntroSortHelpers::IntroSortUtil<T,Compare>(ContainerIterator<T>,ContainerIterator<T>,int,Compare)' being compiled
+          with
+          [
+              T=PlayerA6,
+              Compare=std::function<bool (const PlayerA6 &,const PlayerA6 &)>
+          ]
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(323,17):
+          see reference to function template instantiation 'void Globals::HeapSort<T,Compare>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
+          with
+          [
+              T=PlayerA6,
+              Compare=std::function<bool (const PlayerA6 &,const PlayerA6 &)>
+          ]
+  
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244: 'initializing': conversion from 'ContainerIterator<T>::difference_type' to 'int', possible loss of data
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:         with
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:         [
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:             T=int
+D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19): warning C4244:         ]
+  (compiling source file 'CustomContainers.cpp')
+      D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(284,19):
+      the template instantiation context (the oldest one first) is
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\CustomContainers.cpp(447,11):
           see reference to function template instantiation 'void Globals::IntroSort<T,std::less<int>>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
           with
           [
               T=int,
               Compare=std::less<int>
           ]
-          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(341,31):
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(340,31):
           see reference to function template instantiation 'void Globals::IntroSortHelpers::IntroSortUtil<T,Compare>(ContainerIterator<T>,ContainerIterator<T>,int,Compare)' being compiled
           with
           [
               T=int,
               Compare=std::less<int>
           ]
-          C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals.h(324,17):
+          D:\VGP_Semester5\VGP241_W26\CustomContainers\CustomContainers\Globals.h(323,17):
           see reference to function template instantiation 'void Globals::HeapSort<T,Compare>(ContainerIterator<T>,ContainerIterator<T>,Compare)' being compiled
           with
           [
@@ -69,4 +99,4 @@ C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\CustomContainers\Globals
               Compare=std::less<int>
           ]
   
-  CustomContainers.vcxproj -> C:\Users\vjkpo\source\repos\VGP241_W26\CustomContainers\x64\Debug\CustomContainers.exe
+  CustomContainers.vcxproj -> D:\VGP_Semester5\VGP241_W26\CustomContainers\x64\Debug\CustomContainers.exe

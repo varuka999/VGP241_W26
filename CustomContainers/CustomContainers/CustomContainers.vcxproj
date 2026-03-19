@@ -129,12 +129,20 @@
   <ItemGroup>
     <ClInclude Include="Array.h" />
     <ClInclude Include="ContainerIterator.h" />
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="Enums.h" />
     <ClInclude Include="Globals.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryA5.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="KeyItem.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerA6.h" />
     <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="Team.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureManager.h" />
     <ClInclude Include="UnorderedMap.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>

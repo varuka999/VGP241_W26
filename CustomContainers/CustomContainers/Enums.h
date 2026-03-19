@@ -9,6 +9,14 @@ enum Stats
     Speed,
 };
 
+enum class StatsA6
+{
+    Health = 0,
+    Attack,
+    Speed,
+    AttackCount,
+};
+
 enum ItemType
 {
     Null = -1,
