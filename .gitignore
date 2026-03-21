@@ -44,6 +44,10 @@
 */*/.vs
 */*/*/.vs
 /CustomContainers/.vs
+/VGP241_Assignment3_Vincent_Karlsson/.vs
+/VGP241_W1/.vs
+/VGP241_W1B_Exercises/.vs
+/VGP241_Week1A_Exercises/.vs
 */*/x64
 
 */Debug
