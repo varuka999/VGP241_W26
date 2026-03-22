@@ -137,6 +137,8 @@
     <ClInclude Include="Item.h" />
     <ClInclude Include="KeyItem.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="MSTGraph.h" />
+    <ClInclude Include="MSTGraphK.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PlayerA6.h" />
     <ClInclude Include="PriorityQueue.h" />
@@ -145,6 +147,7 @@
     <ClInclude Include="TextureManager.h" />
     <ClInclude Include="UnorderedMap.h" />
     <ClInclude Include="Vector.h" />
+    <ClInclude Include="WeightedGraph.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
